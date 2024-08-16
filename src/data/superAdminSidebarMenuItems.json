@@ -1,0 +1,12 @@
+[
+  {
+    "icon": "Sidebar.dashboard.white",
+    "text": "Dashboard",
+    "link": "/"
+  },
+  {
+    "icon": "Sidebar.virtualAssistant.white",
+    "text": "Virtual Assistants",
+    "link": "/virtual-assistants"
+  }
+]

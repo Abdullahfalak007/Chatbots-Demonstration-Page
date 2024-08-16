@@ -1,0 +1,41 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        customBlue: "#0771EF",
+      },
+    },
+  },
+  fontFamily: {
+    interBlack: ["Inter-Black", "sans-serif"],
+    interBold: ["Inter-Bold", "sans-serif"],
+    interExtraBold: ["Inter-ExtraBold", "sans-serif"],
+    interExtraLight: ["Inter-ExtraLight", "sans-serif"],
+    interLight: ["Inter-Light", "sans-serif"],
+    interMedium: ["Inter-Medium", "sans-serif"],
+    interRegular: ["Inter-Regular", "sans-serif"],
+    interSemiBold: ["Inter-SemiBold", "sans-serif"],
+    interThin: ["Inter-Thin", "sans-serif"],
+    poppinsBlack: ["Poppins-Black", "sans-serif"],
+    poppinsBlackItalic: ["Poppins-BlackItalic", "sans-serif"],
+    poppinsBold: ["Poppins-Bold", "sans-serif"],
+    poppinsBoldItalic: ["Poppins-BoldItalic", "sans-serif"],
+    poppinsExtraBold: ["Poppins-ExtraBold", "sans-serif"],
+    poppinsExtraBoldItalic: ["Poppins-ExtraBoldItalic", "sans-serif"],
+    poppinsExtraLight: ["Poppins-ExtraLight", "sans-serif"],
+    poppinsExtraLightItalic: ["Poppins-ExtraLightItalic", "sans-serif"],
+    poppinsItalic: ["Poppins-Italic", "sans-serif"],
+    poppinsLight: ["Poppins-Light", "sans-serif"],
+    poppinsLightItalic: ["Poppins-LightItalic", "sans-serif"],
+    poppinsMedium: ["Poppins-Medium", "sans-serif"],
+    poppinsMediumItalic: ["Poppins-MediumItalic", "sans-serif"],
+    poppinsRegular: ["Poppins-Regular", "sans-serif"],
+    poppinsSemiBold: ["Poppins-SemiBold", "sans-serif"],
+    poppinsSemiBoldItalic: ["Poppins-SemiBoldItalic", "sans-serif"],
+    poppinsThin: ["Poppins-Thin", "sans-serif"],
+    poppinsThinItalic: ["Poppins-ThinItalic", "sans-serif"],
+  },
+  plugins: [],
+};

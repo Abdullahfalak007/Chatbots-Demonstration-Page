@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "UserSidebar.dashboard.white",
+    "text": "Dashboard",
+    "link": "/"
+  },
+  {
+    "icon": "UserSidebar.voiceAssistant.white",
+    "text": "Voice Assistant",
+    "link": "/voice-assistant"
+  },
+  {
+    "icon": "UserSidebar.callHistory.white",
+    "text": "Call History",
+    "link": "/call-history"
+  },
+  {
+    "icon": "UserSidebar.settings.white",
+    "text": "Settings",
+    "link": "/setting"
+  }
+]

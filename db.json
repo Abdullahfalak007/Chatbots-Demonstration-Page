@@ -1,0 +1,364 @@
+{
+  "charts": {
+    "totalBotsChart": {
+      "monthly": [
+        { "name": "Jan", "bots": 400 },
+        { "name": "Feb", "bots": 300 },
+        { "name": "Mar", "bots": 200 },
+        { "name": "Apr", "bots": 278 },
+        { "name": "May", "bots": 189 },
+        { "name": "Jun", "bots": 239 },
+        { "name": "Jul", "bots": 349 },
+        { "name": "Aug", "bots": 200 },
+        { "name": "Sep", "bots": 300 },
+        { "name": "Oct", "bots": 250 },
+        { "name": "Nov", "bots": 150 },
+        { "name": "Dec", "bots": 200 }
+      ],
+      "daily": [
+        { "name": "1", "bots": 150 },
+        { "name": "2", "bots": 200 },
+        { "name": "3", "bots": 100 },
+        { "name": "4", "bots": 300 },
+        { "name": "5", "bots": 250 },
+        { "name": "6", "bots": 350 },
+        { "name": "7", "bots": 180 },
+        { "name": "8", "bots": 120 },
+        { "name": "9", "bots": 140 },
+        { "name": "10", "bots": 220 },
+        { "name": "11", "bots": 160 },
+        { "name": "12", "bots": 200 },
+        { "name": "13", "bots": 190 },
+        { "name": "14", "bots": 210 },
+        { "name": "15", "bots": 240 },
+        { "name": "16", "bots": 230 },
+        { "name": "17", "bots": 170 },
+        { "name": "18", "bots": 180 },
+        { "name": "19", "bots": 190 },
+        { "name": "20", "bots": 250 },
+        { "name": "21", "bots": 270 },
+        { "name": "22", "bots": 260 },
+        { "name": "23", "bots": 290 },
+        { "name": "24", "bots": 300 },
+        { "name": "25", "bots": 310 },
+        { "name": "26", "bots": 320 },
+        { "name": "27", "bots": 330 },
+        { "name": "28", "bots": 340 },
+        { "name": "29", "bots": 350 },
+        { "name": "30", "bots": 360 }
+      ],
+      "weekly": [
+        { "name": "Week 1", "bots": 200 },
+        { "name": "Week 2", "bots": 150 },
+        { "name": "Week 3", "bots": 300 },
+        { "name": "Week 4", "bots": 250 }
+      ]
+    },
+    "totalClientsChart": {
+      "monthly": [
+        { "name": "Jan", "clients": 200 },
+        { "name": "Feb", "clients": 180 },
+        { "name": "Mar", "clients": 220 },
+        { "name": "Apr", "clients": 150 },
+        { "name": "May", "clients": 300 },
+        { "name": "Jun", "clients": 400 },
+        { "name": "Jul", "clients": 500 },
+        { "name": "Aug", "clients": 600 },
+        { "name": "Sep", "clients": 700 },
+        { "name": "Oct", "clients": 800 },
+        { "name": "Nov", "clients": 900 },
+        { "name": "Dec", "clients": 1000 }
+      ],
+      "daily": [
+        { "name": "1", "clients": 20 },
+        { "name": "2", "clients": 25 },
+        { "name": "3", "clients": 30 },
+        { "name": "4", "clients": 35 },
+        { "name": "5", "clients": 40 },
+        { "name": "6", "clients": 45 },
+        { "name": "7", "clients": 50 },
+        { "name": "8", "clients": 55 },
+        { "name": "9", "clients": 60 },
+        { "name": "10", "clients": 65 },
+        { "name": "11", "clients": 70 },
+        { "name": "12", "clients": 75 },
+        { "name": "13", "clients": 80 },
+        { "name": "14", "clients": 85 },
+        { "name": "15", "clients": 90 },
+        { "name": "16", "clients": 95 },
+        { "name": "17", "clients": 100 },
+        { "name": "18", "clients": 105 },
+        { "name": "19", "clients": 110 },
+        { "name": "20", "clients": 115 },
+        { "name": "21", "clients": 120 },
+        { "name": "22", "clients": 125 },
+        { "name": "23", "clients": 130 },
+        { "name": "24", "clients": 135 },
+        { "name": "25", "clients": 140 },
+        { "name": "26", "clients": 145 },
+        { "name": "27", "clients": 150 },
+        { "name": "28", "clients": 155 },
+        { "name": "29", "clients": 160 },
+        { "name": "30", "clients": 165 }
+      ],
+      "weekly": [
+        { "name": "Week 1", "clients": 200 },
+        { "name": "Week 2", "clients": 400 },
+        { "name": "Week 3", "clients": 600 },
+        { "name": "Week 4", "clients": 800 }
+      ]
+    },
+    "totalCallsChart": [
+      { "name": "John", "calls": 200, "avatar": "./avatar1.png" },
+      { "name": "Jane", "calls": 150, "avatar": "./avatar2.png" },
+      { "name": "Tom", "calls": 180, "avatar": "./avatar3.png" },
+      { "name": "Lucy", "calls": 220, "avatar": "./avatar4.png" },
+      { "name": "Mike", "calls": 160, "avatar": "./avatar5.png" },
+      { "name": "Emma", "calls": 190, "avatar": "./avatar6.png" },
+      { "name": "Lucy", "calls": 220, "avatar": "./avatar1.png" },
+      { "name": "Mike", "calls": 160, "avatar": "./avatar2.png" },
+      { "name": "Emma", "calls": 190, "avatar": "./avatar3.png" }
+    ]
+  },
+  "clients": [
+    {
+      "id": 1,
+      "client": "PowerPhase",
+      "representative": "John Oliver",
+      "email": "abc@gmail.com",
+      "phone": "03434934849",
+      "location": "USA"
+    },
+    {
+      "id": 2,
+      "client": "SolarTech",
+      "representative": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "1234567890",
+      "location": "Canada"
+    },
+    {
+      "id": 3,
+      "client": "WindCorp",
+      "representative": "Bill Turner",
+      "email": "bill@example.com",
+      "phone": "0987654321",
+      "location": "Germany"
+    },
+    {
+      "id": 4,
+      "client": "HydroFlow",
+      "representative": "Sara Lee",
+      "email": "sara@example.com",
+      "phone": "1112223333",
+      "location": "UK"
+    },
+    {
+      "id": 5,
+      "client": "EcoEnergy",
+      "representative": "Mike Brown",
+      "email": "mike@example.com",
+      "phone": "4445556666",
+      "location": "Australia"
+    },
+    {
+      "id": 6,
+      "client": "GreenWave",
+      "representative": "Anna White",
+      "email": "anna@example.com",
+      "phone": "7778889999",
+      "location": "New Zealand"
+    },
+    {
+      "id": 7,
+      "client": "CleanTech",
+      "representative": "Tom Harris",
+      "email": "tom@example.com",
+      "phone": "3334445555",
+      "location": "USA"
+    },
+    {
+      "id": 8,
+      "client": "PureEnergy",
+      "representative": "Lisa Adams",
+      "email": "lisa@example.com",
+      "phone": "2223334444",
+      "location": "Canada"
+    },
+    {
+      "id": 9,
+      "client": "BioPower",
+      "representative": "David Clark",
+      "email": "david@example.com",
+      "phone": "5556667777",
+      "location": "Germany"
+    },
+    {
+      "id": 10,
+      "client": "EnergyHub",
+      "representative": "Emma Johnson",
+      "email": "emma@example.com",
+      "phone": "8889990000",
+      "location": "UK"
+    },
+    {
+      "id": 11,
+      "client": "FutureFuel",
+      "representative": "Oliver King",
+      "email": "oliver@example.com",
+      "phone": "1231231234",
+      "location": "Australia"
+    },
+    {
+      "id": 12,
+      "client": "SunPower",
+      "representative": "Sophia Green",
+      "email": "sophia@example.com",
+      "phone": "3213214321",
+      "location": "New Zealand"
+    },
+    {
+      "id": 13,
+      "client": "BrightEnergy",
+      "representative": "Mason Brown",
+      "email": "mason@example.com",
+      "phone": "5675675678",
+      "location": "USA"
+    },
+    {
+      "id": 14,
+      "client": "EnviroTech",
+      "representative": "Ava Walker",
+      "email": "ava@example.com",
+      "phone": "6786786789",
+      "location": "Canada"
+    },
+    {
+      "id": 15,
+      "client": "EnergyPlus",
+      "representative": "Lucas Scott",
+      "email": "lucas@example.com",
+      "phone": "7897897890",
+      "location": "Germany"
+    },
+    {
+      "id": 16,
+      "client": "PowerPhase",
+      "representative": "John Oliver",
+      "email": "abc@gmail.com",
+      "phone": "03434934849",
+      "location": "USA"
+    },
+    {
+      "id": 17,
+      "client": "EnergyFuture",
+      "representative": "Ella Thompson",
+      "email": "ella@example.com",
+      "phone": "8908908901",
+      "location": "UK"
+    },
+    {
+      "id": 18,
+      "client": "EcoSystems",
+      "representative": "James Brown",
+      "email": "james@example.com",
+      "phone": "9019019012",
+      "location": "Australia"
+    },
+    {
+      "id": 19,
+      "client": "GreenSolutions",
+      "representative": "Amelia Davis",
+      "email": "amelia@example.com",
+      "phone": "0120120123",
+      "location": "New Zealand"
+    },
+    {
+      "id": 20,
+      "client": "RenewableEnergy",
+      "representative": "Henry Wilson",
+      "email": "henry@example.com",
+      "phone": "2342342345",
+      "location": "USA"
+    }
+  ],
+  "virtualAssistants": [
+    {
+      "id": 1,
+      "virtualAssistant": "John Oliver",
+      "email": "abc@gmail.com",
+      "number": "03434949489",
+      "client": "PowerPhase",
+      "bot": "Genbot"
+    },
+    {
+      "id": 2,
+      "virtualAssistant": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "number": "123456789",
+      "client": "ClientA",
+      "bot": "BotA"
+    }
+  ],
+  "chatHistory": [
+    {
+      "fileName": "New Call",
+      "client": "ZPL",
+      "date": "24/07/2024",
+      "time": "4:22 PM",
+      "chat": [
+        {
+          "sender": "Client",
+          "text": "CyberGen is a company that specializes in providing comprehensive IT solutions and advanced technology tailored for businesses. We offer a range of services including Cyber Security Solutions, Software Development, Marketing Services, Managed Services, Professional Services, Strategic Staffing, Technical Training, and Artificial Intelligence."
+        },
+        {
+          "sender": "User Name",
+          "text": "CyberGen is a company that specializes in providing comprehensive IT solutions..."
+        }
+      ]
+    },
+    {
+      "fileName": "Important Meeting",
+      "client": "ABC Corp",
+      "date": "25/07/2024",
+      "time": "10:00 AM",
+      "chat": [
+        {
+          "sender": "Client",
+          "text": "Important meeting details from the client."
+        },
+        {
+          "sender": "User Name",
+          "text": "Acknowledged the meeting details."
+        }
+      ]
+    }
+  ],
+  "knowledgebase": [
+    {
+      "id": 358,
+      "client": "CyberGen",
+      "bot": "Genbot",
+      "dateCreated": "07/05/2024",
+      "documents": [
+        "abc123.pdf",
+        "abc123.pdf",
+        "abc123.pdf",
+        "abc123.pdf",
+        "abc123.pdf",
+        "abc123.pdf",
+        "abc123.pdf",
+        "abc123.pdf",
+        "abc123.pdf",
+        "abc123.pdf"
+      ]
+    },
+    {
+      "id": 359,
+      "client": "SolarTech",
+      "bot": "SunBot",
+      "dateCreated": "06/15/2024",
+      "documents": ["solarDoc1.pdf", "solarDoc2.pdf"]
+    }
+  ]
+}

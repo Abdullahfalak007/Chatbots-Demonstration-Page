@@ -1,0 +1,27 @@
+[
+  {
+    "icon": "dashboard",
+    "text": "Dashboard",
+    "link": "/"
+  },
+  {
+    "icon": "clients",
+    "text": "Clients",
+    "link": "/clients-page"
+  },
+  {
+    "icon": "virtualAssistant",
+    "text": "Virtual Assistants",
+    "link": "/virtual-assistant-page"
+  },
+  {
+    "icon": "knowledgeBase",
+    "text": "Knowledge Base",
+    "link": "/knowledge-base"
+  },
+  {
+    "icon": "settings",
+    "text": "Settings",
+    "link": "/setting"
+  }
+]

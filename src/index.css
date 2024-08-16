@@ -1,0 +1,429 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom checkbox styles for the header */
+.form-checkbox-header {
+  appearance: none;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #ffffff; /* White border for header checkbox */
+  cursor: pointer;
+  vertical-align: middle;
+  position: relative;
+}
+
+.form-checkbox-header:checked::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+/* Custom checkbox styles for the body */
+.form-checkbox {
+  appearance: none;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #0771ef; /* Blue border for body checkbox */
+  cursor: pointer;
+  vertical-align: middle;
+  position: relative;
+}
+
+.form-checkbox:checked::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #0771ef;
+  transform: translate(-50%, -50%);
+}
+
+/* For the input field of the navbar */
+.placeholder-custom::placeholder {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.25rem; /* This should match the input height */
+}
+
+/* index.css */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0.375rem;
+  height: 3.85244rem;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 6.25rem;
+  width: 0.375rem;
+  height: 3.85244rem;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #d9d9d9;
+  border-radius: 6.25rem;
+}
+
+.custom-scrollbar-for-pdf::-webkit-scrollbar {
+  width: 0.3125rem;
+  height: 2.375rem;
+}
+
+.custom-scrollbar-for-pdf::-webkit-scrollbar-thumb {
+  background-color: #595959;
+  border-radius: 0.25rem;
+}
+
+.custom-scrollbar-for-pdf::-webkit-scrollbar-track {
+  background-color: #d9d9d9;
+  border-radius: 0.25rem;
+}
+
+/*Scroll bar for the Total bots chart in the AdminDashboardPage*/
+
+.chart-container {
+  overflow-x: auto;
+  width: 100%;
+  height: 85%;
+}
+
+.chart-container::-webkit-scrollbar {
+  height: 0.30081rem;
+}
+
+.chart-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0.30081rem;
+}
+
+/* for the progress bar of the training models in the Knowledge base page */
+/* Add this CSS to your main stylesheet or index.css */
+
+.training-modal {
+  width: 34.625rem;
+  height: 12.3125rem;
+  flex-shrink: 0;
+  border-radius: 1.81856rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-bar-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0771ef;
+  margin-top: 1rem;
+  padding: 0.2rem;
+}
+
+.progress-bar {
+  display: flex;
+  width: 100%;
+  height: 20px;
+  background-color: #e0f7ff;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-box {
+  width: 5%;
+  height: 100%;
+  background-color: #0771ef;
+  margin: 1px;
+  opacity: 0;
+  animation: progressBox 3s linear forwards;
+}
+
+@keyframes progressBox {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.progress-bar .progress-box:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.progress-bar .progress-box:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.progress-bar .progress-box:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.progress-bar .progress-box:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.progress-bar .progress-box:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.progress-bar .progress-box:nth-child(6) {
+  animation-delay: 0.6s;
+}
+.progress-bar .progress-box:nth-child(7) {
+  animation-delay: 0.7s;
+}
+.progress-bar .progress-box:nth-child(8) {
+  animation-delay: 0.8s;
+}
+.progress-bar .progress-box:nth-child(9) {
+  animation-delay: 0.9s;
+}
+.progress-bar .progress-box:nth-child(10) {
+  animation-delay: 1s;
+}
+.progress-bar .progress-box:nth-child(11) {
+  animation-delay: 1.1s;
+}
+.progress-bar .progress-box:nth-child(12) {
+  animation-delay: 1.2s;
+}
+.progress-bar .progress-box:nth-child(13) {
+  animation-delay: 1.3s;
+}
+.progress-bar .progress-box:nth-child(14) {
+  animation-delay: 1.4s;
+}
+.progress-bar .progress-box:nth-child(15) {
+  animation-delay: 1.5s;
+}
+.progress-bar .progress-box:nth-child(16) {
+  animation-delay: 1.6s;
+}
+.progress-bar .progress-box:nth-child(17) {
+  animation-delay: 1.7s;
+}
+.progress-bar .progress-box:nth-child(18) {
+  animation-delay: 1.8s;
+}
+.progress-bar .progress-box:nth-child(19) {
+  animation-delay: 1.9s;
+}
+.progress-bar .progress-box:nth-child(20) {
+  animation-delay: 2s;
+}
+
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "poppins", sans-serif;
+}
+
+.bar:hover {
+  fill: #8884d8; /* The color you want to apply on hover */
+}
+
+/* src/fonts.css */
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 100;
+  src: url("./fonts/Poppins-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 100;
+  font-style: italic;
+  src: url("./fonts/Poppins-ThinItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 200;
+  src: url("./fonts/Poppins-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 200;
+  font-style: italic;
+  src: url("./fonts/Poppins-ExtraLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 300;
+  src: url("./fonts/Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: italic;
+  src: url("./fonts/Poppins-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: url("./fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: italic;
+  src: url("./fonts/Poppins-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  src: url("./fonts/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: italic;
+  src: url("./fonts/Poppins-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  src: url("./fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-style: italic;
+  src: url("./fonts/Poppins-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  src: url("./fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: italic;
+  src: url("./fonts/Poppins-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 800;
+  src: url("./fonts/Poppins-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-style: italic;
+  src: url("./fonts/Poppins-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 900;
+  src: url("./fonts/Poppins-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 900;
+  font-style: italic;
+  src: url("./fonts/Poppins-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 100;
+  src: url("./fonts/Inter-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 200;
+  src: url("./fonts/Inter-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 300;
+  src: url("./fonts/Inter-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: url("./fonts/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 500;
+  src: url("./fonts/Inter-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  src: url("./fonts/Inter-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  src: url("./fonts/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 800;
+  src: url("./fonts/Inter-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 900;
+  src: url("./fonts/Inter-Black.ttf") format("truetype");
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+::placeholder {
+  color: #9f9f9f;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}

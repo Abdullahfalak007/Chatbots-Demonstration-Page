@@ -1,0 +1,9 @@
+{
+  "Chat": {
+    "logo": "./logo.png",
+    "clientBackground": "./client_background.png",
+    "aiAssistantBackground": "./ai_assistant_background.png",
+    "sendIcon": "./send_icon.svg",
+    "icon": "./connect_icon.svg"
+  }
+}
